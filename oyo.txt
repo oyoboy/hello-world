@@ -3,6 +3,7 @@
 		<title>Oyoboy</title>
 	</head>
 	<body>
+		<h2>Jose Rizal University</h2>
 		<h5>Jose Mari C. Salameda</h5>
 		<p>BSIT</p>
 		<p>405i</p>
