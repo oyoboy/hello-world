@@ -1,0 +1,663 @@
+.flex-fill { width: 100%; }
+
+.sidebar {
+	background:	#FFF;
+	width: 19%; 
+}
+
+img.foodsense-logo {
+	height: 130px;
+	margin: 10px 30px;
+}
+
+ul.sidebar-menu {
+	margin-bottom: 50px;
+	margin-top: 30px;
+	padding-left: 30px;
+}
+
+li.icon { padding-bottom: 15px; }
+
+.flex-icon {
+	width: 15%
+}
+
+.flex-label {
+	align-self: flex-end;
+	width: 80%;
+}
+
+span.icon-label {
+	color: #35AC98;
+	padding-left: 10px;
+}
+
+.social	{ padding-left: 30px; }
+
+p.social-txt {
+	border-bottom: 2px dashed #F5F5F5;
+	max-width: 170px;
+	padding-bottom: 5px;
+}
+
+p.facebook-txt {
+	font-size: 13px;
+	line-height: 1.8;
+	max-width: 170px;
+}
+
+span.button-text { padding-left: 5px; }
+
+button.twitter-btn , button.facebook-btn {
+	font-size: 14px;
+	height: 45px;
+	margin-bottom: 30px;
+	width: 170px;
+}
+
+.content { width: 81%; }
+
+.content .main-content { padding: 10px 30px 10px 0; }
+
+.content .img-content { width: 100%; }
+
+.content .menu-img {
+	display: none;
+	padding: 0;
+	position: relative; 
+}
+
+.content .img-text1 {
+	background: #FFF;
+	bottom: 130px;
+	font-size: 25px;
+	padding: 10px 70px 10px 30px;
+	position: absolute;
+	right: 0;
+}
+
+.content .img-text1-2 {
+	background: #000;
+	bottom: 90px;
+	color: #FFF;
+	font-size: 15px;
+	padding: 10px 70px 10px 30px;
+	position: absolute;
+	right: 0;
+}
+
+.content .img-text2 {
+	background: #FFF;
+	bottom: 27px;
+	font-size: 25px;
+	padding: 10px 70px 10px 30px;
+	position: absolute;
+	width: 100%;
+}
+
+.content .img-text2-2 {
+	background: #000;
+	bottom: -15px;
+	color: #FFF;
+	font-size: 15px;
+	padding: 10px 70px 10px 30px;
+	position: absolute;
+	width: 100%;
+}
+
+.content .img-text3 {
+	background: #FFF;
+	top: 42px;
+	font-size: 25px;
+	padding: 10px 70px 10px 30px;
+	position: absolute;
+	width: 100%;
+}
+
+.content .img-text3-2 {
+	background: #000;
+	top: 0;
+	color: #FFF;
+	font-size: 15px;
+	padding: 10px 70px 10px 30px;
+	position: absolute;
+	width: 100%;
+}
+
+
+.content .img-text4 {
+	background: #FFF;
+	bottom: 102px;
+	font-size: 25px;
+	padding: 10px 70px 10px 30px;
+	position: absolute;
+}
+
+.content .img-text4-2 {
+	background: #000;
+	bottom: 60px;
+	color: #FFF;
+	font-size: 15px;
+	padding: 10px 70px 10px 30px;
+	position: absolute;
+}
+
+.content .content-menu {
+	background-color: #EFF8F7;
+	cursor: pointer;
+	height: 105px;
+	margin-bottom: 35px;
+	padding-bottom: 124px;
+}
+
+.content .content-menu-items {
+	color: #35AC98;
+	font-weight: bold;
+	padding: 25px 25px 0 25px;
+}
+
+.content p.menu-item-info {
+		padding-bottom: 20px;
+	}
+
+.content .show {
+	display: block;
+}
+
+.content .active {
+	background: #d9EFEC;
+}
+
+.content .flex-menu { border-right: 1px ridge; }
+
+.content .flex-menu:hover { background: #d9efec; }
+
+.content .flex-menu:active { background: #d9EFEC; }
+
+.button-clicked {
+  background: #000;
+}
+.content .flex-left {
+	font-size: 20px;
+	margin-left: 10px;
+	text-align: center;
+	width: 6%;
+}
+
+.content .flex-middle {
+	line-height: 0.9;
+	margin-top: 5px;
+	width: 49%;
+}
+
+.content .flex-rights {
+	width: 44%;
+}
+
+.content input.input-subscribe {
+	margin-right: 20px;
+	width: 330px;
+}
+
+.content .newsletter {
+	border-bottom: 2px dashed #F5F5F5;
+	border-top: 2px dashed #F5F5F5;
+	padding: 8px 0;
+}
+
+.content .bottom-content { margin-top: 35px; }
+
+.content span.email-text {
+	font-size: 15px;
+	line-height: 0.8;
+}
+
+.content .img-thumbnail { padding: 8px; }
+
+.content h6.bottom-header {
+	color: #35AC98;
+	margin-top: 15px;
+}
+
+.content .bottom-content .flex-fill {
+	width: 25%;
+}
+
+.content p.bottom-info { font-size: 15px; }
+
+
+
+@media (max-width: 1199.98px) {
+	.sidebar { width: 20%; }
+
+	.content {
+		margin-top: 10px; 
+		width: 80%; 
+	}
+
+	 img.img-content { width: 100%; }
+
+	.content .img-text1, .content .img-text1-2 { right: 0; }
+
+	.content .main-content { padding: 0 20px; }
+
+	.content .content-menu {
+		margin-right: 0;
+		width: 100%;
+	}
+
+	.content .flex-middle {
+		margin-left: 10px;
+		margin-right: 10px;
+		margin-top: 3px;
+	}
+
+	.content .flex-rights {
+		width: 40%;
+	}
+
+	.content input.input-subscribe {
+		margin-right: 15px;
+		width: 190px;
+	}
+
+	.content span.email-text { font-size: 12px; }
+
+	.content .bottom-content {
+		margin-top: 25px;
+		padding: 0 20px 20px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.sidebar {
+		height: 150px;
+		width: 100%;
+	}
+
+	.social { display: none; }
+
+	ul.sidebar-menu { margin-bottom: 80px; }
+
+	.logo-menu { display: inline-block; }
+
+	.flex-fill.logo {width: 20%; }
+
+	.flex-fill.menu {
+		width: 80%;
+		margin-top: 50px;	
+	}
+
+	.logo-menu .foodsense-menu li.icon { 
+		display: inline-block;
+	}
+
+	.icons-label { text-align: center; }
+
+	.flex-icon, .flex-label { width: 100% }
+
+	.flex-label.label-blog { padding-right: 10px; }
+
+	.flex-label.label-alist { padding-right: 13px; }
+
+	.flex-label.label-contribute { padding-right: 10px; }
+
+	.flex-label.label-about { padding-right: 10px; }
+
+	img.foodsense-logo {
+		height: 130px;
+		margin: 10px 20px;
+	}
+
+	img.img-content { width: 100%; }
+
+	.content { width: 100%; }
+
+	.content .img-text1, .content .img-text1-2 { right: 0; }
+
+	.content .main-content { padding: 0 20px; }
+
+	.content .content-menu {
+		height: 0;
+		margin-right: 0;
+		margin-top: -20px;
+		padding-bottom: 50px;
+		text-align: center;
+		width: 100%;
+
+	}
+
+	.content p.menu-item-info {
+		display: none;
+	}
+
+	.content .newsletter { width: 100%; }
+
+	.content .flex-left {
+		font-size: 25px;
+	}
+
+	.content .flex-middle {
+		margin-left: 10px;
+		margin-top: 3px;
+	}
+
+	.content span.email-text { font-size: 14px; }
+
+	.content input.input-subscribe {
+		margin-right: 20px;
+		width: 170px;
+	}
+
+	.content .bottom-content {
+		margin-top: 25px;
+		padding: 0 20px 20px;
+	}
+
+	.content h6.bottom-header, .content p.bottom-info { display: none; }
+
+}
+
+@media (max-width: 768px) {
+	.sidebar {
+		height: 150px;
+		width: 100%;
+	}
+
+	.social { display: none; }
+
+	ul.sidebar-menu { margin-bottom: 80px; }
+
+	.logo-menu { display: inline-block; }
+
+	.flex-fill.logo { width: 20%; }
+
+	.flex-fill.menu {
+		width: 80%;
+		margin-top: 50px;	
+	}
+
+	.logo-menu .foodsense-menu li.icon { 
+		display: inline-block;
+		font-size: 10px;
+		 }
+
+	img.foodsense-logo {
+		height: 130px;
+		margin: 10px 20px;
+	}
+
+	img.img-content { width: 100%; }
+
+	.content { width: 100%; }
+
+	.content .img-text1, .content .img-text1-2 { right: 0; }
+
+	.content .main-content { padding: 0 20px; }
+
+	.content .content-menu {
+		margin-right: 0;
+		margin-top: -20px;
+		text-align: center;
+		width: 100%;
+	}
+
+	.content p.menu-item-info {
+		display: none;
+	}
+
+	.content .newsletter { width: 100%; }
+
+	.content .flex-middle {
+		margin-left: 10px;
+		margin-top: 3px;
+	}
+
+	.content input.input-subscribe {
+		margin-right: 10px;
+		width: 170px;
+	}
+
+	.content span.email-text { font-size: 12px; }
+
+	.content .bottom-content {
+		margin-top: 25px;
+		padding: 0 20px 20px;
+	}
+
+	.content h6.bottom-header, .content p.bottom-info { display: none; }
+
+
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.sidebar {
+		height: 300px;
+		width: 100%;
+	}
+
+	.social { display: none; }
+
+	ul.sidebar-menu { 
+		margin-bottom: 20px;
+		padding-left: 0; 
+	}
+
+	.logo-menu .foodsense-menu li.icon { 
+		font-size: 11px;
+		margin-left: 35px;
+	}
+
+	.flex-fill.logo {
+		order: 2;
+		width: 100%;
+		text-align: center;
+	}
+
+	.flex-fill.menu {
+		margin-top: 0;
+		order: 1;
+		width: 100%;	
+	}
+
+	img.foodsense-logo {
+		height: 130px;
+	}
+
+	span.span-icon {
+		visibility: hidden;
+	}
+
+	img.img-content {
+		height: 380px; 
+		width: 100%; 
+	}
+
+	.content { width: 100%; }
+
+	.content .img-text1 {
+		bottom: 20px;
+		left: 0;
+	}
+
+	.content .img-text1-2 {
+		bottom: -20px;
+		left: 0;
+	}
+
+	.content .img-text2 {
+		bottom: 20px;
+		left: 0;
+	}
+
+	.content .img-text2-1 {
+		bottom: -20px;
+		left: 0;
+	}
+
+	.content .main-content { padding: 0 20px; }
+
+	.content h5 {
+		display: none;
+	}
+
+	.content .content-menu {
+		display: none !important;
+	}
+
+	.content .newsletter {
+		padding-left: 30px;
+		padding-top: 20px;
+	}
+
+	.content .flex-left {
+		font-size: 25px;
+		margin-left: 0;
+		width: 10%; 
+	}
+
+	.content .flex-middle { width: 80%; }
+
+	.content span.email-text { font-size: 17px; }
+
+	.content .flex-rights { 
+		margin-top: 15px;  
+		width: 100%;
+	}
+
+	.content input.input-subscribe {
+		width: 310px;
+	}
+
+	.content .btn-btn-default { width: 120px; }
+
+	.content .bottom-content { margin-top: 35px; }
+
+	.content img.img-thumbnail {
+		height: 290px;
+		margin: 0 30px;
+	}
+
+	.content .bottom-content .flex-fill { width: 100%; }
+
+	.content .bottom-image2 , .bottom-image3 , .bottom-image4 {
+		display: none;
+	}
+}
+
+@media (max-width: 575.98px) {
+	.sidebar {
+		height: 300px;
+		width: 100%;
+	}
+
+	.social { display: none; }
+
+	ul.sidebar-menu {
+		border-bottom: 2px solid #F5F5F5;
+		margin-bottom: 20px;
+		margin-left: 20px;
+		margin-right: 20px; 
+	}
+
+	.logo-menu .foodsense-menu li.icon { 
+		display: inline-block;
+		font-size: 9px;
+	}
+
+	.flex-fill.logo {
+		order: 2;
+		width: 100%;
+		text-align: center;
+	}
+
+	.flex-fill.menu {
+		margin-top: 0;
+		order: 1;
+		width: 100%;	
+	}
+
+	img.foodsense-logo {
+		height: 130px;
+	}
+
+	span.span-icon {
+		visibility: hidden;
+	}
+
+	img.img-content {
+		height: 380px; 
+		width: 100%; 
+	}
+
+	.content { width: 100%; }
+
+	.content .img-text1 {
+		bottom: 40px;
+		left: 0;
+	}
+
+	.content .img-text1-2 {
+		bottom: -20px;
+		left: 0;
+	}
+
+	.content .img-text3 { top: 64px; }
+
+	.content .img-text4 {
+		bottom: 102px;
+		font-size: 15px;
+		padding: 10px;
+	}
+
+	.content .img-text4-2 {
+		bottom: 67px;
+		font-size: 10px;
+		padding: 10px;
+	}
+
+	.content .main-content { padding: 0 20px; }
+
+	.content h5 {
+		display: none;
+	}
+
+	.content .newsletter {
+		padding-left: 30px;
+		padding-top: 20px;
+	}
+
+	.content .flex-left {
+		font-size: 25px;
+		margin-left: 0;
+		width: 15%; 
+	}
+
+	.content .flex-middle { width: 79%; }
+
+	.content span.email-text { font-size: 12px; }
+
+	.content .flex-rights { 
+		margin-top: 15px;  
+		width: 100%;
+	}
+
+	.content input.input-subscribe {
+		width: 210px;
+	}
+
+	.content .btn-btn-default { width: 120px; }
+
+	.content .bottom-content { margin-top: 35px; }
+
+	.content img.img-thumbnail {
+		height: 290px;
+		margin: 0 10px;
+	}
+
+	.content .bottom-content .flex-fill { width: 100%; }
+
+	.content .bottom-image2 , .bottom-image3 , .bottom-image4 {
+		display: none;
+	}
+}

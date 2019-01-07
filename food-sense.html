@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+        <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+        <link href="style2.css" rel="stylesheet">
+        <title>Food Sense</title>
+        <script>
+            $(document).ready(function(){
+            $("div.content-menu-items").click(function(){
+                var id = $(this).attr('data-target');
+                $('.menu-img').removeClass('show');
+                $('#' + id).addClass('show');
+                });
+            });
+            $(document).ready(function(){
+            $("div.content-menu-items").click(function(){
+                var id = $(this).attr('id');
+                $('.content-menu-items').removeClass('active');
+                $('#' + id).addClass('active');
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <!-- Start: Main -->
+        <section>
+           <div class="d-flex flex-wrap">
+                <div class="flex-fill sidebar">
+                    <div class="d-flex flex-wrap logo-menu">
+                        <div class="flex-fill logo">
+                            <img class="foodsense-logo" src="food_sense_logo.jpg">
+                        </div>
+                        <div class="flex-fill menu">
+                            <div class="foodsense-menu">
+                                <ul class="sidebar-menu">
+                                    <li class="list-unstyled icon">
+                                        <div class="d-flex flex-wrap icons-label">
+                                            <div class="flex-fill flex-icon">
+                                                <span class="span-icon"><i class="fas fa-utensils fa-2x"></i></span>
+                                            </div>
+                                            <div class="flex-fill flex-label label-tastemakers">
+                                                <span class="icon-label">Tastemakers</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="list-unstyled icon">
+                                        <div class="d-flex flex-wrap icons-label">
+                                            <div class="flex-fill flex-icon">
+                                                <span class="span-icon"><i class="fas fa-book fa-2x"></i></span>
+                                            </div>
+                                            <div class="flex-label label-blog">
+                                                <span class="icon-label">Blog</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="list-unstyled icon">
+                                        <div class="d-flex flex-wrap icons-label">
+                                            <div class="flex-fill flex-icon">
+                                                <span class="span-icon"><i class="fas fa-clipboard-check fa-2x"></i></span>
+                                            </div>
+                                            <div class="flex-fill flex-label label-alist">
+                                                <span class="icon-label">The A-List</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="list-unstyled icon"> 
+                                        <div class="d-flex flex-wrap icons-label">
+                                            <div class="flex-fill flex-icon">
+                                                <span class="span-icon"><i class="fas fa-camera fa-2x"></i></span>
+                                            </div>
+                                            <div class="flex-fill flex-label label-contribute">
+                                                <span class="icon-label">Contribute</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="list-unstyled icon">
+                                        <div class="d-flex flex-wrap icons-label">
+                                            <div class="flex-fill flex-icon">
+                                                <span class="span-icon"><i class="far fa-address-book fa-2x"></i></span>
+                                            </div>
+                                            <div class="flex-fill flex-label label-about">
+                                                <span class="icon-label">About</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="social">
+                        <p class="social-txt">LATEST TWEET</p>
+                        <button  class="btn btn-outline-info btn-sm twitter-btn" type="button">
+                        <i class="fab fa-twitter"></i><span class="button-text">Join the Conversation</span>
+                        </button>
+                        <p class="social-txt">LET'S BE FRIENDS!</p>
+                        <p class="facebook-txt"><em>For weekly finds, community recommendations, and more, like us on facebook</p></em>
+                        <button  class="btn btn-outline-info btn-sm facebook-btn" type="button">
+                        <i class="fab fa-facebook-f"></i><span class="button-text">Join the Community</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="flex-fill content">
+                    <div class="main-content">
+                        <div class="menu-img show" id="image1">
+                            <img class="img-content" src="https://via.placeholder.com/1057x460?text=Image1">
+                            <p class="img-text1">What's Cooking?</p>
+                            <p class="img-text1-2">Browse our gallery for dependably delicious recipes</p>
+                        </div>
+                        <div class="menu-img" id="image2">
+                            <img class="img-content" src="https://via.placeholder.com/1057x460?text=Image2">
+                            <p class="img-text2">Shop for the Best</p>
+                            <p class="img-text2-2">With our carefully curated vendor list, you'll know what to buy</p>
+                        </div>
+                        <div class="menu-img" id="image3">
+                            <img class="img-content" src="https://via.placeholder.com/1057x460?text=Image3">
+                            <p class="img-text3">The A-list</p>
+                            <p class="img-text3-2">Phasellus eu eros vitae lectus porttitor consectetur.</p>
+                        </div>
+                        <div class="menu-img" id="image4">
+                            <img class="img-content" src="https://via.placeholder.com/1057x460?text=Image4">
+                            <p class="img-text4">Share your Food Sense</p>
+                            <p class="img-text4-2">Submit your favorite recipes, become a contributor, or get interviewed.</p>
+                        </div>
+                        <div class="d-flex content-menu">
+                            <div class="flex-fill flex-menu">
+                                <div class="content-menu-items active" data-target="image1" id="button1">
+                                <h5>Tastemakers</h5>
+                                <p class="menu-item-info">Feast your eyes & get recipes!</p>
+                                </div>
+                            </div>
+                            <div class="flex-fill flex-menu">
+                                <div class="content-menu-items"  data-target="image2" id="button2">
+                                <h5>Blog</h5>
+                                <p class="menu-item-info">News, how-tos, stories, and more</p>
+                                </div>
+                            </div>
+                            <div class="flex-fill flex-menu">
+                                <div class="content-menu-items" data-target="image3" id="button3">
+                                <h5>The A-list</h5>
+                                <p class="menu-item-info">Handpicked, absolute favorites</p>
+                                </div>
+                            </div>
+                            <div class="flex-fill flex-menu">
+                                <div class="content-menu-items" data-target="image4" id="button4">
+                                <h5>Contribute</h5>
+                                <p class="menu-item-info">We want to hear from <br>you!</p> 
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-wrap align-content-center newsletter">
+                            <div class="flex-fill flex-left align-self-center">
+                                <i class="fas fa-envelope fa-2x"></i>
+                            </div>
+                            <div class="flex-fill flex-middle">
+                                <span class="email-text"><em>Sign up for our newsletter to receive a handpicked selection of the best stories, recipes,
+                                and news, delivered weekly to your inbox.</em>
+                                </span>
+                            </div>
+                            <div class="flex-fill flex-rights">
+                                <form class="form-inline">
+                                    <input type="email" class="input-subscribe" placeholder="Email">
+                                    <button type="button" class="btn btn-default">Subscribe</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-wrap bottom-content">
+                        <div class="flex-fill bottom-image1">
+                            <img class="img-thumbnail" src="https://via.placeholder.com/220x125?text=Image 1">
+                            <h6 class="bottom-header">2012's Best Summer<br> Cookbooks</h6>
+                            <p class="bottom-info">With the best of the season</p>
+                        </div>
+                        <div class="flex-fill bottom-image2">
+                            <img class="img-thumbnail" src="https://via.placeholder.com/220x125?text=Image 2">
+                            <h6 class="bottom-header">How to Make Vegetable<br> Chips</h6>
+                            <p class="bottom-info">About a month ago, I ate almost</p>
+                        </div>
+                        <div class="flex-fill bottom-image3">
+                            <img class="img-thumbnail" src="https://via.placeholder.com/220x125?text=Image 3">
+                            <h6 class="bottom-header">Join us on pinterest</h6>
+                            <p class="bottom-info">If i could curate a cookbook for<br> you, this would be it.</p>
+                        </div>
+                        <div class="flex-fill bottom-image4">
+                            <img class="img-thumbnail" src="https://via.placeholder.com/220x125?text=Image 4">
+                            <h6 class="bottom-header">Recipes from a Sunday<br> Supper</h6>
+                            <p class="bottom-info">I could not figure out what to do</p>
+                        </div>
+                    </div>
+                </div>               
+           </div>
+        </section>
+        <!-- End: Main -->
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    </body>
+</html>
